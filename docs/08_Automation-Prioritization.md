@@ -44,29 +44,17 @@ The following scenarios are prioritized as P0:
 
 | Test Case ID | Test Scenario | Priority | Rationale |
 |---|---|---|---|
-
 | TC-LOGIN-001 | Login with valid credentials | P0 | Core application entry point and critical regression workflow |
-
 | TC-LOGIN-007 | Logout from the application | P0 | Core authentication workflow |
-
 | TC-DASH-001 | Verify dashboard is displayed after successful login | P0 | Critical post-login validation |
-
 | TC-PIM-001 | Add a new employee with valid details | P0 | Critical employee-management workflow |
-
 | TC-PIM-004 | Search for an existing employee | P0 | Frequent and important employee-management workflow |
-
 | TC-PIM-005 | View employee details | P0 | Core employee information validation |
-
 | TC-PIM-007 | Update employee information | P0 | Important employee-management regression workflow |
-
 | TC-PIM-008 | Validate updated employee information | P0 | Confirms successful data update and integrity |
-
 | TC-LEAVE-001 | Submit a leave request with valid details | P0 | Critical leave-management workflow |
-
 | TC-LEAVE-003 | View submitted leave request | P0 | Core leave workflow validation |
-
 | TC-LEAVE-004 | Approve a pending leave request | P0 | Critical business workflow |
-
 | TC-LEAVE-005 | Reject a pending leave request | P0 | Important leave-management workflow |
 
 **Total P0 scenarios: 12**
@@ -77,27 +65,16 @@ The following scenarios are prioritized as P1:
 
 | Test Case ID | Test Scenario | Priority | Rationale |
 |---|---|---|---|
-
 | TC-LOGIN-002 | Login with invalid username | P1 | Important negative authentication regression |
-
 | TC-LOGIN-003 | Login with invalid password | P1 | Important negative authentication regression |
-
 | TC-LOGIN-004 | Login with blank username | P1 | Stable validation scenario |
-
 | TC-LOGIN-005 | Login with blank password | P1 | Stable validation scenario |
-
 | TC-LOGIN-006 | Login with both fields blank | P1 | Useful authentication validation |
-
 | TC-ADMIN-001 | Create a new system user | P1 | Important administrative workflow |
-
 | TC-ADMIN-002 | Search for an existing system user | P1 | Repeatable administrative regression scenario |
-
 | TC-ADMIN-003 | Validate required fields while creating a user | P1 | Stable negative validation |
-
 | TC-PIM-002 | Validate required fields while adding employee | P1 | Important employee-management validation |
-
 | TC-PIM-006 | Search for a non-existing employee | P1 | Useful negative regression scenario |
-
 | TC-LEAVE-002 | Validate leave request required fields | P1 | Important leave validation scenario |
 
 **Total P1 scenarios: 11**
@@ -108,25 +85,15 @@ The following scenarios are prioritized as P2:
 
 | Test Case ID | Test Scenario | Priority | Rationale |
 |---|---|---|---|
-
 | TC-DASH-002 | Navigate between dashboard menu sections | P2 | Useful navigation coverage but lower initial automation value |
-
 | TC-PIM-003 | Add employee with optional details | P2 | Useful but lower initial priority |
-
 | TC-TIME-001 | Access Time/Attendance functionality | P2 | Page access alone provides moderate regression value |
-
 | TC-TIME-002 | Submit a time-related entry | P2 | Requires additional assessment of data and workflow complexity |
-
 | TC-REC-001 | Add a recruitment candidate | P2 | Valuable but outside the initial core regression focus |
-
 | TC-REC-002 | Search for a recruitment candidate | P2 | Useful but lower initial priority |
-
 | TC-MYINFO-001 | View employee personal information | P2 | Moderate business and regression value |
-
 | TC-MYINFO-002 | Update employee personal information | P2 | Valuable but outside the initial core scope |
-
 | TC-DIR-001 | Search employee using Directory | P2 | Useful but lower initial priority |
-
 | TC-DIR-002 | View employee information from Directory | P2 | Moderate automation value |
 
 **Total P2 scenarios: 10**
@@ -135,7 +102,6 @@ The following scenarios are prioritized as P2:
 
 | Priority | Number of Scenarios | Purpose |
 |---|---:|---|
-
 | P0 | 12 | Core regression foundation |
 | P1 | 11 | Extended regression coverage |
 | P2 | 10 | Future automation expansion |
