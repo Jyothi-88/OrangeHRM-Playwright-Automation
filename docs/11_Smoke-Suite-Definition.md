@@ -52,17 +52,11 @@ The initial OrangeHRM smoke suite will contain the following scenarios:
 
 | Test Case ID | Test Scenario | Reason for Smoke Inclusion |
 |---|---|---|
-
 | TC-LOGIN-001 | Login with valid credentials | Validates the primary application entry point |
-
 | TC-DASH-001 | Verify dashboard is displayed after successful login | Confirms successful application access after authentication |
-
 | TC-PIM-001 | Add a new employee with valid details | Validates a critical employee-management workflow |
-
 | TC-PIM-004 | Search for an existing employee | Validates core employee retrieval functionality |
-
 | TC-PIM-007 | Update employee information | Validates a critical employee-management operation |
-
 | TC-LEAVE-001 | Submit a leave request with valid details | Validates a critical leave-management workflow |
 
 **Total initial smoke scenarios: 6**
@@ -174,19 +168,12 @@ Smoke testing and regression testing serve different purposes.
 
 | Aspect | Smoke Suite | Regression Suite |
 |---|---|---|
-
 | Objective | Validate critical application health | Validate broader application behavior |
-
 | Coverage | Small and focused | Broad |
-
 | Execution Time | Short | Longer |
-
 | Frequency | Frequently | As required |
-
 | Test Selection | Critical workflows | Critical + extended scenarios |
-
 | Failure Impact | May block further testing | Indicates functional regression |
-
 | Primary Use | Build/deployment validation | Release/regression validation |
 
 The smoke suite will therefore represent a subset of the broader automated regression suite.
