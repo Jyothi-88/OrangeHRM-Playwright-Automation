@@ -36,25 +36,15 @@ The following scenarios are outside the initial Playwright automation implementa
 
 | Test Case ID | Module | Test Scenario | Reason for Deferral |
 |---|---|---|---|
-
 | TC-DASH-002 | Dashboard | Navigate between dashboard menu sections | Lower initial automation value compared with core business workflows |
-
 | TC-PIM-003 | PIM | Add employee with optional details | Lower initial priority compared with core employee workflows |
-
 | TC-TIME-001 | Time | Access Time/Attendance functionality | Page access provides moderate regression value |
-
 | TC-TIME-002 | Time | Submit a time-related entry | Requires additional consideration of workflow complexity and test data |
-
 | TC-REC-001 | Recruitment | Add a recruitment candidate | Valuable but deferred to future automation expansion |
-
 | TC-REC-002 | Recruitment | Search for a recruitment candidate | Lower initial priority compared with core HR workflows |
-
 | TC-MYINFO-001 | My Info | View employee personal information | Moderate business and regression value |
-
 | TC-MYINFO-002 | My Info | Update employee personal information | Valuable but deferred from the initial core scope |
-
 | TC-DIR-001 | Directory | Search employee using Directory | Lower initial priority and moderate regression value |
-
 | TC-DIR-002 | Directory | View employee information from Directory | Moderate automation value and deferred implementation priority |
 
 ## 4. Out-of-Scope Modules
@@ -63,19 +53,12 @@ The following modules are not part of the initial Playwright implementation scop
 
 | Module | Initial Status | Reason |
 |---|---|---|
-
 | Time | Out of Scope | Deferred until core regression coverage is established |
-
 | Recruitment | Out of Scope | Deferred based on initial automation priority |
-
 | My Info | Out of Scope | Moderate initial regression value |
-
 | Directory | Out of Scope | Lower initial implementation priority |
-
 | Performance | Out of Scope | Low initial automation priority |
-
 | Maintenance | Out of Scope | Administrative functionality with lower initial regression priority |
-
 | Buzz | Out of Scope | Low initial automation priority |
 
 The Dashboard and PIM modules are partially in scope.
