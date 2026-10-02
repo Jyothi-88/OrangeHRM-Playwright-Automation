@@ -60,7 +60,6 @@ The following scenarios are included in the initial regression suite:
 
 | Test Case ID | Test Scenario | Priority |
 |---|---|---|
-
 | TC-LOGIN-001 | Login with valid credentials | P0 |
 | TC-LOGIN-002 | Login with invalid username | P1 |
 | TC-LOGIN-003 | Login with invalid password | P1 |
@@ -132,7 +131,6 @@ The smoke suite and regression suite serve different purposes.
 
 | Aspect | Smoke Suite | Regression Suite |
 |---|---|---|
-
 | Objective | Validate critical application health | Validate broader existing functionality |
 | Coverage | Small and focused | Broader |
 | Execution Time | Short | Longer |
